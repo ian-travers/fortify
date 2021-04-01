@@ -6,4 +6,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/dashboard', 'dashboard')->middleware(['auth']);
+Route::view('/dashboard', 'dashboard')->middleware(['auth', 'verified']);

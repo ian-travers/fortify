@@ -1,5 +1,5 @@
 <x-layouts.app>
-    <h2>Register</h2>
+    <h2>Login</h2>
 
     <form action="/login" method="post">
         @csrf
@@ -26,3 +26,4 @@
         </div>
     </form>
 </x-layouts.app>
+
